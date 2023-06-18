@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    background-color: #0E0E1B;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #090812;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin: 0 auto;
+  }
+
+  .twooting{
+    animation: fadeInUp 1s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F3448;
+    padding: 12px 110px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    color: white;
+  }
+
+  .btn-connexion {
+    padding: 10px 20px;
+    background-color: #428bca;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .content {
+    background-color: #0E0E1B;
+  }
+
+  .twoots{
+    animation: slideInRight 1s ease-out;
+    width: 90vw;
+    background-color: #2F3448;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .twoot{
+    background-color: #1C1C25;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .twootName{
+    user-select: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .twootContent{
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .twootDate{
+    user-select: none;
+    color: #8899a6;
+    font-size: 12px;
+  }
+
+  .titleCO{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    color: white;
+  }
+  
+  .formCO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+  }
+
+  .formElement{
+    padding: 10px;
+    border: 1px solid #323242;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #9C9C9C;
+    margin-bottom: 10px;
+    background-color: #323242;
+  }
+
+  .noacc{
+    margin-top: 20px;
+    background-color: rgb(241, 87, 87);
+  }
+  
+  .send{
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #292933;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .btnDel{
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .btnDel:hover{
+    background-color: #c82333;
+  }
+
+  #post-form {
+    margin-bottom: 20px;
+  }
+
+  #post-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .post-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }

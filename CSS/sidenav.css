@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+body {
+  font-family: Alata, sans-serif;
+  margin: 0;
+}
+
+
+
+header{
+  height: 70px;
+  width: 100%;
+  background-color: #090812;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index:2;
+  position: sticky;
+}
+
+header img{
+  height: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conBtn{
+  transition: 0.2s ease-in-out;
+  background-color: #2F3448;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 32px; 
+}
+.conBtn:hover{
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: #1f2330;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #090812;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #9C9C9C;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenav:hover {
+  width: 260px; /* Ajustez la largeur selon vos préférences */
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin-left: 32px;
+  z-index: 2;
+  user-select: none;
+}
+
+
+
+/* Styles pour un affichage mobile */
+@media screen and (max-height: 450px) {
+  .sidenav a {
+    font-size: 18px;
+  }
+}
